@@ -71,6 +71,19 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+
+  window.onload = function() {
+    const animationText = document.querySelector('.animation-text');
+    const texts = ['Pain Ends', 'Life Begins'];
+    let index = 0;
+
+    setInterval(function() {
+      index = (index + 1) % texts.length;
+      animationText.textContent = texts[index];
+    }, 1000);
+  };
+
+
 /**
  * HEADER & BACK TOP BTN
  * 

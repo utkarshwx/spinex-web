@@ -459,7 +459,20 @@ header.header .container {
   background-color: var(--white);
 }
 
-.hero-title { margin-block: 20px 30px; }
+.hero-title { margin-block: 20px 30px;
+  position: relative;
+  font-size: 36px;
+  text-align: left; }
+
+.animation-text {
+  display: inline-block;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+
+}
 
 .hero-card {
   background-color: var(--white);
