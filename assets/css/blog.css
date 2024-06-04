@@ -1024,6 +1024,16 @@ p {
    * responsive for large than 768px screen
    */
   
+
+
+
+  
+ @media (min-width: 350px) {
+    .blog-img {
+        display: none;
+      }
+    }
+
   @media (min-width: 768px) {
   
     /**
