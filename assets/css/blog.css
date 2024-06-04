@@ -614,8 +614,14 @@ p {
   .blog-img {
     max-width: 35%;
     float: left;
-    padding-left: 20px; 
-  }
+    border-radius: 25px; /* Adjust the value for more or less curve on the image */
+    box-shadow: 0 4px 8px var(--midnight-green); /* Shadow effect */
+    background-color: var(--midnight-green); /* Midnight green color */
+    overflow: hidden; /* Ensures the shadow remains rectangular */
+}
+
+
+
   
   .tab-list {
     display: flex;
@@ -1035,7 +1041,9 @@ p {
   
     }
   
-  
+    .blog-img {
+      display: none;
+    }
   
     /**
      * REUSED STYLE
@@ -1236,6 +1244,10 @@ p {
    */
   
   @media (min-width: 1200px) {
+
+    .blog-img {
+    display: block;
+  }
   
     /**
      * REUSED STYLE
