@@ -483,6 +483,44 @@
     border-block-end: 1px solid var(--gainsboro);
     padding-inline-end: 18px;
   }
+
+ .content {
+    text-align: center;
+    padding: 20px;
+
+  h1 {
+      font-size: 55px;
+      line-height: 1.2;
+      margin: 0;
+  }
+  
+  p {
+      font-size: 24px;
+      margin: 10px 0 0 0;
+  }
+    
+}
+
+.center-image {
+  display: block;
+    margin: 50px auto 0;
+    max-width: 100%;
+    height: 750px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--midnight-green);
+    background-color: var(--midnight-green);
+}
+
+/* h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+    margin: 10px 0 0 0;
+} */
   
   .hero-card .input-wrapper ion-icon {
     position: absolute;
