@@ -103,7 +103,20 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
+  ::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2095ae;
+  border-radius: 8px;
+}
+
   li { list-style: none; }
   
   a,
