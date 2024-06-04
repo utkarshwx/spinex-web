@@ -506,9 +506,7 @@ header.header .container {
   #HERO
 \*-----------------------------------*/
 
-.hero-banner {
-  display: none;
-}
+
 
 .hero {
   background-color: var(--midnight-green);
