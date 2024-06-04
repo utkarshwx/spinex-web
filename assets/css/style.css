@@ -471,6 +471,7 @@ header.header .container {
   left: 15%;
   transform: translate(-50%, -50%);
   white-space: nowrap;
+  transition: 5ms;
 
 }
 
@@ -637,6 +638,24 @@ header.header .container {
 .listing-card .card-text { color: var(--midnight-green); }
 
 
+
+.map { background-color: var(--alice-blue); }
+
+.map-card {
+  display: flex;
+  border: 2px solid var(--middle-blue-green_40);
+  border-radius: var(--radius-12);
+  transition: var(--transition-1);
+}
+
+.map-card:is(:hover, :focus-visible) { border-color: var(--verdigris); }
+
+.map-card .card-title {
+  margin-block-end: 5px;
+  font-family: var(--ff-oswald);
+}
+
+.map-card .card-text { color: var(--midnight-green); }
 
 
 
