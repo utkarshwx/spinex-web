@@ -1035,6 +1035,12 @@ header.header .container {
   .hero-banner {
     display: block;
     max-width: max-content;
+
+  }
+   .hero-banner {
+    display: block;
+    max-width: max-content;
+    
   }
 
   .hero .container {
