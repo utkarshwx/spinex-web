@@ -1,0 +1,119 @@
+
+:root {
+
+    /**
+     * colors
+     */
+  
+    --rich-black-fogra-29: hsl(222, 44%, 8%);
+    --middle-blue-green_40: hsla(174, 64%, 71%, 0.4);
+    --midnight-green: hsl(186, 100%, 19%);
+    --midnight-green_a25: hsla(186, 100%, 19%, 0.25);
+    --independece: hsl(236, 14%, 39%);
+    --verdigris: hsl(182, 100%, 35%);
+  
+  }
+
+.appointment {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+.appointment .container {
+    border-radius: 15px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.appointment .section-title h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+.appointment .form-group {
+    margin-bottom: 20px;
+}
+
+.appointment .form-group input,
+.appointment .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 73, 83, 0.1);
+    color: #333;
+    font-size: 14px;
+    resize: none;
+}
+
+.appointment .form-group input::placeholder,
+.appointment .form-group textarea::placeholder {
+    color: #aaa;
+}
+
+.appointment .form-group input:focus,
+.appointment .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 4px 12px rgba(0, 73, 83, 0.2);
+}
+
+.appointment .form-group .button .btn {
+    padding: 15px 30px;
+    background-color: var(--verdigris);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 73, 83, 0.1);
+}
+
+.appointment .form-group .button .btn:hover {
+    background-color: var(--midnight-green);
+}
+
+.appointment p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .appointment .row > [class*='col-'] {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .appointment .form-group {
+        margin-bottom: 15px;
+    }
+    .appointment .form-group .button .btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .appointment .section-title h2 {
+        font-size: 20px;
+    }
+    .appointment .form-group input,
+    .appointment .form-group textarea {
+        font-size: 12px;
+        padding: 10px;
+    }
+    .appointment .form-group .button .btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+    .appointment p {
+        font-size: 12px;
+    }
+}
