@@ -540,14 +540,12 @@ header.header .container {
 
 .animation-text {
   display: inline-block;
-  position: absolute;
-  top: 80%;
-  left: 15%;
-  transform: translate(-50%, -50%);
   white-space: nowrap;
   transition: 5ms;
-
+  text-align: left; /* Align text to the left */
+  position: static; /* Remove absolute positioning */
 }
+
 
 .hero-card {
   background-color: var(--white);
