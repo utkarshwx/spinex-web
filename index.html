@@ -140,7 +140,7 @@
         <ion-icon name="menu-outline"></ion-icon>
       </button>
 
-      <a href="#" class="btn has-before title-md">Appointment</a>
+      <a href="#appointment" class="btn has-before title-md">Appointment</a>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
 
@@ -207,103 +207,60 @@
         - #SERVICE
       -->
 
-      <section class="service" aria-label="service">
-        <div class="container">
-
-          <ul class="service-list">
-
-            <li>
-              <div class="service-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+      
+          <section class="appointment" id="appointment">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div>
+                    <h2 class="headline-md">We Are Always Ready to Help You. Book An Appointment</h2>
+                  </div>
                 </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Psychiatry</a>
-                </h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
-
-                <button class="btn-circle" aria-label="read more about psychiatry">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
               </div>
-            </li>
-
-            <li>
-              <div class="service-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+              <div class="row">
+                <div class="col-lg-6 col-md-12 col-12">
+                  <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                    
+                    <input type="hidden" name="access_key" value="f2704a09-3d1a-4cdb-9c2c-847677b56c1f">
+                    <input type="hidden" name="subject" value="New appointment request">
+                    <input type="hidden" name="from_name" value="Spinex Website">
+                    <div class="row">
+                        
+                          <input name="name" type="text" placeholder="Name">
+                          <br>
+                        
+                          <input name="email" type="email" placeholder="Email">
+                          <br>
+                       
+                          <input name="phone" type="text" placeholder="Phone">
+                          <br>
+                          <input name="condition" type="text" placeholder="Condition">
+                          <br>
+                        
+                          <input type="text" placeholder="Date" id="datepicker">
+                          <br>
+                       
+                          <textarea name="message" placeholder="Write Your Message Here....."></textarea>
+                        
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-5 col-md-4 col-12">
+                        <div class="form-group">
+                          <div class="button">
+                            <button type="submit" class="btn">Book An Appointment</button>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </form>
+                  <div class="col-lg-7 col-md-8 col-12">
+                    <p>( We will be confirm by an Text Message )</p>
+                  </div>
                 </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Gynecology</a>
-                </h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Gynecology">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
               </div>
-            </li>
-
-            <li>
-              <div class="service-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Pulmonology</a>
-                </h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Pulmonology">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card" data-reveal="bottom">
-
-                <div class="card-icon">
-                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="headline-sm card-title">
-                  <a href="#">Orthopedics</a>
-                </h3>
-
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing
-                </p>
-
-                <button class="btn-circle" aria-label="read more about Orthopedics">
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </button>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
+            </div>
+          </section>
 
 
 
