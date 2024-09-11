@@ -510,7 +510,8 @@ header.header .container {
 
 .hero {
   background-color: var(--midnight-green);
-  --section-padding: 200px;
+  --section-padding: 5px;
+  padding-bottom: 60px;
   background-repeat: no-repeat;
   background-size: cover;
 }
